@@ -46,7 +46,7 @@ for filename_prefix, query in queries.items():
             
             comment_list.append({
                 'username': author_name,
-                'comment_body': comment.body.replace('\n', ' '), # Cleaning it to store in CSV in proper format
+                'comment_body': comment.body.replace('\n', ' '), # Cleaning it to store in CSV in proper format 
                 'date': readable_date,
                 'upvotes': comment.score
             })
